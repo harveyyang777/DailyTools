@@ -17,6 +17,7 @@ if __name__ == '__main__':
         iosUtils.get_screen_shot()
     elif command == 'info' :
         print('get device info')
+        iosUtils.get_bundleID()
     elif command == 'clear':
         iosUtils.clear_images()
     else:
